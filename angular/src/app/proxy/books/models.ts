@@ -13,4 +13,5 @@ export interface CreateUpdateBookDto {
   type: BookType;
   publisDate: string;
   price: number;
+  publishDate?: string;
 }
