@@ -19,5 +19,6 @@ namespace Acme.BookStore.Books
         public DateTime PublisDate { get; set; } = DateTime.Now;
         [Required]
         public float Price { get; set; }
+        public DateTime PublishDate { get; set; }
     }
 }
